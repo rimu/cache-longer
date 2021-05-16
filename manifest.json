@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Cache Longer",
+  "version": "1.0",
+  "author": "Rimu Atkinson",
+
+  "icons": {
+    "96": "icon.png"
+  },
+
+  "description": "Cache Longer modifies HTTP headers to make your browser cache things for longer.",
+  "homepage_url": "https://rimu.geek.nz",
+
+  "background": {
+      "scripts": ["cache_longer.js"]
+  },
+
+  "permissions": [ "storage", "webRequest", "webRequestBlocking", "<all_urls>" ]
+
+}
